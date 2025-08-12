@@ -1196,6 +1196,18 @@ input[type="date"]::placeholder {
 
 /* services----------------------------------------------------------------- */
 
+.toggle-arrow {
+  font-size: 1rem;
+  margin-left: 6px;
+  display: inline-block;
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.toggle-arrow.down {
+  transform: rotate(90deg); /* rotates from right to down */
+}
+
+
 .treatment-detail-section {
   background-color: #fdf6f9;
 }
